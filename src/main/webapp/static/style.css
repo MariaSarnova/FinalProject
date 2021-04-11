@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.bg-image {
+  margin: 0;
+  padding: 0;
+  background-image: url(images/flowers.jpg);
+
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #34495e;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.container input[type = "text"],.container input[type = "password"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 40px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 230px;
+    height:45px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.container input[type = "text"]:focus,.container input[type = "password"]:focus{
+    width: 280px;
+    border-color: #2ecc71;
+}
+
+.container input[type = "submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 40px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    height:45px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: point;
+}
+
+.container input[type = "submit"]:hover{
+    background: #2ecc71;
+}
+
+.container h1{
+    margin: 0;
+    padding: 0 0 30px;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+
+}
+.container h2{
+    margin: 0;
+    height:0px;
+    padding: 0 0 30px;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+}
